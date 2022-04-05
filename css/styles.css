@@ -12,6 +12,13 @@ p {
   color: #8f8f8f;
 }
 
+.caption {
+  color: #333333;
+}
+
+.row {
+  padding: 0;
+}
 /* Headings */
 
 .big-heading {
@@ -19,6 +26,7 @@ p {
   font-size: 4.5rem;
   line-height: 1.5;
   color: #ff4c68;
+  text-align: center;
 }
 
 .section-heading {
@@ -34,7 +42,7 @@ p {
 /* Containers */
 
 .container-fluid{
-  padding: 7% 15%;
+  padding: 7% 7%;
 }
 
 /* Sections */
@@ -42,6 +50,12 @@ p {
 .colored-section {
   background-color: #ff4c68;
   color: #fff;
+}
+
+.second-section {
+  background-color: #F2EFE0;
+  color: #fceceb;
+
 }
 
 .white-section {
@@ -67,6 +81,7 @@ p {
 .big-heading {
   font-family: 'Ubuntu';
 }
+
 .nav-link {
   font-size: 1.2rem;
   font-family: 'Ubuntu';
